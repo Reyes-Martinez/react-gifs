@@ -1,0 +1,37 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  padding: 40px;
+  background-image: url(./paven.png);
+}
+input {
+  font-size: 1.2rem;
+  width: 100%;
+  color: #666;
+}
+.card {
+  width: 300px;
+  height: 250px;
+  align-content: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(248, 215, 215);
+}
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+.card img {
+  width: 170px;
+  height: 150px;
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
